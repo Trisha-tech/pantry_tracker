@@ -87,6 +87,8 @@ const handleClose = () => setOpen(false)
     alignItems={'center'}
     gap={2}
   >
+    <Typography style={{color:"white",fontSize:36}}>Pantry Tracker</Typography>
+    <Typography style={{color:"white",fontSize:24}}>Made by Trisha Sahu</Typography>
     <Modal
       open={open}
       onClose={handleClose}
